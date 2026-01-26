@@ -1,3 +1,7 @@
+# TaxMate
+
+Hello and welcome to TaxMate! This repository contains an AI-powered tax assistant chatbot designed to help users understand and analyze their tax returns.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Note
