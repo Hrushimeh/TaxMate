@@ -39,15 +39,15 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 AI-powered chatbot prototype that helps users learn and analyze their tax returns. Built with OpenAI's GPT model using Vercel’s AI SDK, with a simple and responsive front-end powered by Next.js and Tailwind CSS.
 
 ✨ Features
-📄 File Uploads – Users can upload various tax-related documents, allowing the chatbot to analyze and generate responses based on file content.
+File Uploads – Users can upload various tax-related documents, allowing the chatbot to analyze and generate responses based on file content.
 
-💬 AI-Powered Conversations – The chatbot provides tax insights and answers user queries related to Form 1040 and individual tax returns.
+AI-Powered Conversations – The chatbot provides tax insights and answers user queries related to Form 1040 and individual tax returns.
 
-⚡ Quick-Reply Buttons – AI-generated suggestions guide conversations, making interactions faster and more intuitive.
+Quick-Reply Buttons – AI-generated suggestions guide conversations, making interactions faster and more intuitive.
 
-🚀 Seamless Integration – Hosted on Vercel, ensuring scalability and fast performance.
+Seamless Integration – Hosted on Vercel, ensuring scalability and fast performance.
 
-🛠️ Tech Stack
+Tech Stack
 Frontend: Next.js, Tailwind CSS
 
 Backend: Vercel AI SDK, OpenAI GPT-4o-mini
