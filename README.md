@@ -43,11 +43,11 @@ AI-powered chatbot prototype that helps users learn and analyze their tax return
 
 💬 AI-Powered Conversations – The chatbot provides tax insights and answers user queries related to Form 1040 and individual tax returns.
 
-⚡ Quick-Reply Buttons – AI-generated suggestions guide conversations, making interactions faster and more intuitive.
+Quick-Reply Buttons – AI-generated suggestions guide conversations, making interactions faster and more intuitive.
 
-🚀 Seamless Integration – Hosted on Vercel, ensuring scalability and fast performance.
+Seamless Integration – Hosted on Vercel, ensuring scalability and fast performance.
 
-🛠️ Tech Stack
+Tech Stack
 Frontend: Next.js, Tailwind CSS
 
 Backend: Vercel AI SDK, OpenAI GPT-4o-mini
