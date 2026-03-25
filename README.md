@@ -1,14 +1,14 @@
-# TaxMate
+# 🍅 TaxMate
 
 Hello! Welcome to TaxMate, an AI-powered tax assistant chatbot designed to help users learn and analyze their tax returns.
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Note
+## 🍅 Note
 
 The goal of this project was to explore the integration of artificial intelligence into the front end by building a chatbot. Additionally, I experimented with advanced functionalities such as file uploads and AI-generated reply suggestions, which required thoughtful implementation and deeper integration. The front-end styling and certain UX elements remain in a prototype stage, as the primary focus was on AI integration and functionality.
 
-## Getting Started
+## 🍅 Getting Started
 First you need to create a .env.local file that holds your API key. In my case it was 
 
 OPENAI_API_KEY:"api-key here"
@@ -33,19 +33,19 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
-## What is this project?
+## 🍅 What is this project?
 
 📊 AI Tax Assistant
 AI-powered chatbot prototype that helps users learn and analyze their tax returns. Built with OpenAI's GPT model using Vercel’s AI SDK, with a simple and responsive front-end powered by Next.js and Tailwind CSS.
 
 ✨ Features
-📄 File Uploads – Users can upload various tax-related documents, allowing the chatbot to analyze and generate responses based on file content.
+🍅 📄 File Uploads – Users can upload various tax-related documents, allowing the chatbot to analyze and generate responses based on file content.
 
-💬 AI-Powered Conversations – The chatbot provides tax insights and answers user queries related to Form 1040 and individual tax returns.
+🍅 💬 AI-Powered Conversations – The chatbot provides tax insights and answers user queries related to Form 1040 and individual tax returns.
 
-⚡ Quick-Reply Buttons – AI-generated suggestions guide conversations, making interactions faster and more intuitive.
+🍅 ⚡ Quick-Reply Buttons – AI-generated suggestions guide conversations, making interactions faster and more intuitive.
 
-🚀 Seamless Integration – Hosted on Vercel, ensuring scalability and fast performance.
+🍅 🚀 Seamless Integration – Hosted on Vercel, ensuring scalability and fast performance.
 
 🛠️ Tech Stack
 Frontend: Next.js, Tailwind CSS
@@ -57,7 +57,7 @@ Deployment: Vercel
 
 
 
-## Demo
+## 🍅 Demo
 
 Heres a link/gif to a demo of the app being used and its functionalities being tested.
 
