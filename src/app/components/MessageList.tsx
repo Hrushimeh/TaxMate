@@ -21,7 +21,7 @@ const MessageList: React.FC<MessageListProps> = ({ messages, messagesEndRef }) =
             }`}
           >
             <span className="font-medium">{message.role === 'user' ? 'You: ' : 'AI: '}</span>
-            {message.parts.map((part: any, i: number) => (
+            {(Array.isArray(message.parts) ? message.parts : []).map((part: any, i: number) => (
               <div key={`${message.id}-${i}`}>{part.type === 'text' && part.text}</div>
             ))}
             <div

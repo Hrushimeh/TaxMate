@@ -17,7 +17,7 @@ const ChatInput: React.FC<ChatInputProps> = ({
   handleInputChange,
   handleUploadClick,
   handleFileChange,
-  handleSendMessage
+  handleSendMessage,
 }) => {
   return (
     <form

@@ -6,10 +6,10 @@ interface ChatSuggestionsProps {
   handleSendMessage: (event: React.FormEvent, options?: any) => void;
 }
 
-const ChatSuggestions: React.FC<ChatSuggestionsProps> = ({ 
-  suggestions, 
-  handleInputChange, 
-  handleSendMessage 
+const ChatSuggestions: React.FC<ChatSuggestionsProps> = ({
+  suggestions,
+  handleInputChange,
+  handleSendMessage: _handleSendMessage,
 }) => {
   const handleSuggestionClick = (suggestion: string) => {
     handleInputChange({ target: { value: suggestion } } as any);
@@ -22,9 +22,9 @@ const ChatSuggestions: React.FC<ChatSuggestionsProps> = ({
     <div className="mt-4 space-y-2">
       <p className="text-sm text-gray-600 font-semibold">Suggested Follow-ups:</p>
       <div className="flex flex-wrap gap-2">
-        {suggestions.map((suggestion, index) => (
+        {(Array.isArray(suggestions) ? suggestions : []).map((suggestion, index) => (
           <div key={index} className="relative group">
-            <button 
+            <button
               onClick={() => handleSuggestionClick(suggestion)}
               className="
                 px-3 py-1 
@@ -44,7 +44,8 @@ const ChatSuggestions: React.FC<ChatSuggestionsProps> = ({
             >
               {suggestion}
             </button>
-            <div className="
+            <div
+              className="
               absolute 
               z-10 
               invisible 
@@ -62,7 +63,8 @@ const ChatSuggestions: React.FC<ChatSuggestionsProps> = ({
               -translate-x-1/2 
               top-full 
               mt-2
-            ">
+            "
+            >
               {suggestion}
             </div>
           </div>
